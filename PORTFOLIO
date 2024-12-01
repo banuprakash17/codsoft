@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header p {
+            margin: 10px 0 0;
+        }
+        .about, .skills, .projects, .resume, .contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .skills ul, .projects ul, .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li, .contact ul li {
+            margin: 10px 0;
+        }
+        .projects img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>S.Bhanu Prakash</h1>
+        <p>PORTFOLIO</p>
+    </div>
+    <div class="about">
+        <h2>About Me</h2>
+        <img src="c:\Users\Hp\OneDrive\Pictures\Screenshots\bhanuprakash.jpg" alt="Your Image">
+        <p>Short bio highlighting your skills and experience.</p>
+    </div>
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
+    </div>
+    <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project Title 1</h3>
+                <p>Project description 1</p>
+                <img src="project1.jpg" alt="Project 1">
+            </li>
+            <li>
+                <h3>Project Title 2</h3>
+                <p>Project description 2</p>
+                <img src="project2.jpg" alt="Project 2">
+            </li>
+        </ul>
+    </div>
+    <div class="resume">
+        <h2>Resume</h2>
+        <a href="your-resume.pdf" download>Download My Resume</a>
+    </div>
+    <div class="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: your-email@example.com</li>
+            <li>Phone: your-phone-number</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </div>
+</body>
+</html>
